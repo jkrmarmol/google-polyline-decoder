@@ -1,0 +1,26 @@
+{
+  "name": "google-polyline-decoder",
+  "version": "1.0.0",
+  "description": "A lightweight utility to decode Google Maps polyline-encoded strings into coordinate points.",
+  "license": "ISC",
+  "author": "Kurt Russelle Marmol <jkurtrussellemarmol@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkrmarmol/google-polyline-decoder.git"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
+  }
+}
